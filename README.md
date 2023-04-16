@@ -8,9 +8,8 @@
 2022-11-27：[API 1.2.3版](https://app.swaggerhub.com/apis/mingqcn/OOMALL/1.2.3#/) 2022年第四版API<br>
 2022-12-10：[API 1.2.4版](https://app.swaggerhub.com/apis/mingqcn/OOMALL/1.2.4#/) 2022年第五版API<br>
 
-## 测试结果
-系统每天**0:00 4:00 8:00 12:00 16:00 20:00**会自动进行一次单元测试，这是最近一次[测试结果](http://121.36.2.235/unit-test/latest/)和[历史测试结果](http://121.36.2.235/unit-test/)
-<br>系统每天**00:50 4:50 8:50 12:50 16:50 20:50**会自动进行一次集成测试，这是[测试结果](http://121.36.2.235/integration-test/public/), 目录是按照测试时间产生的，在目录下存在output.log文件，可以看到测试时的完整输出
+## 此电子商城项目供后来者学习
+
 
 ## 工程编译，调试的顺序
 所有module都依赖于core模块，先要将core安装到maven的本地仓库，才能编译运行其他模块。方法如下：
