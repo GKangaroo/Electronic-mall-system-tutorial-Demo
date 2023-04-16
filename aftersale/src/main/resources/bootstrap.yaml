@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 114.115.159.1:8848
+        file-extension: yaml
+    inetutils:
+      ignored-interfaces: eth.*
+      preferred-networks: 10.0.1.;192.168.31.
+  application:
+    name: aftersale-service
